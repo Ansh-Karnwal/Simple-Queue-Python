@@ -27,7 +27,7 @@ class SuperQueue(Queue):
             return False
 que = SuperQueue()
 que.put(1)
-que.put("dog")
+que.put("dog")    #Test Inputs
 que.put(False)
 for i in range(4):
     if not que.isempty():
